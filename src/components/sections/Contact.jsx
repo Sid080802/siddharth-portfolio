@@ -135,10 +135,10 @@ const Contact = () => {
       if (form.current) { // Check if form.current is not null
           emailjs
               .sendForm(
-                  "service_62v73jp",
-                  "template_uumdq5c",
+                  "service_9l7d3gq",
+                  "template_9bipnr9",
                   form.current,
-                  "5aAcUTvqoxHTCRKGU"
+                  "RUlilq53mNryxcxZT"
               )
               .then(
                   (result) => {
